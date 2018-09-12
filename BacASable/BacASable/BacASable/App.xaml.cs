@@ -13,6 +13,7 @@ namespace BacASable
         {
             InitializeComponent();
 
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("@31362e312e30jJg/zncvulg2xnrfveOGqTczgR947bmRlZ2uRdjMBsk=");
 
             MainPage = new MainPage();
         }

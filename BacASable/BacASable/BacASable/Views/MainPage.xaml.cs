@@ -32,6 +32,9 @@ namespace BacASable.Views
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;
+                    case (int)MenuItemType.SfImageEditor:
+                        MenuPages.Add(id, new NavigationPage(new SfImageEditorPage()));
+                        break;
                 }
             }
 

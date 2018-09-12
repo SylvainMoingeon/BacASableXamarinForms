@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BacASable.ViewModels"
+             xmlns:imageeditor="clr-namespace:Syncfusion.SfImageEditor.XForms;assembly=Syncfusion.SfImageEditor.XForms"
+             x:Class="BacASable.Views.SfImageEditorPage">
+
+    <ContentPage.BindingContext>
+        <vm:SfImageEditorViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <imageeditor:SfImageEditor Source="{Binding Image}" x:Name="imageeditor" />
+    </ContentPage.Content>
+</ContentPage>

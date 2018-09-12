@@ -14,11 +14,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="portrait.jpg" />
+    <EmbeddedResource Include="portrait.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Syncfusion.Xamarin.SfImageEditor" Version="16.2.0.50" />
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\SfImageEditorPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
