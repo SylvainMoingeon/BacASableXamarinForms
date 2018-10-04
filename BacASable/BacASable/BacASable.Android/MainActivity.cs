@@ -31,6 +31,12 @@ namespace BacASable.Droid
             LoadApplication(new App());
         }
 
+        // Ajouté pour le plugin PermissionPlugin
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        {
+            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
 
         // Field, property, and method for Picture Picker
         public static readonly int PickImageId = 1000;

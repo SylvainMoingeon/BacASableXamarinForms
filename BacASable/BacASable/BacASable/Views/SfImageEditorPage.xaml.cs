@@ -18,6 +18,12 @@ namespace BacASable.Views
             InitializeComponent();
 
             imageeditor.SetToolbarItemVisibility("text,shape,path,free,original,3:1,3:2,4:3,5:4,16:9", false);
+            imageeditor.ImageSaving += Imageeditor_ImageSaving;
+        }
+
+        private void Imageeditor_ImageSaving(object sender, Syncfusion.SfImageEditor.XForms.ImageSavingEventArgs args)
+        {
+            throw new NotImplementedException();
         }
     }
 }

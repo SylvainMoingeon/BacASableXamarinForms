@@ -1,4 +1,5 @@
 ﻿using BacASable.DependencyInterfaces;
+using Plugin.Permissions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,19 +11,31 @@ namespace BacASable.Services
 {
     public class PicturePickerService : IPicturePickerService
     {
-       public async Task<Image> PickPictureAsync()
+
+        IPermissionsService permissionsService;
+
+        public async Task<Image> PickPictureAsync()
         {
-            Stream stream = await DependencyService.Get<IPicturePicker>().GetImageStreamAsync().ConfigureAwait(false);
 
-            if (stream != null)
+            permissionsService = new PermissionsService();
+
+            var status = await permissionsService.AskPermissionAsync(Plugin.Permissions.Abstractions.Permission.Storage);
+
+            if (status == Plugin.Permissions.Abstractions.PermissionStatus.Granted)
             {
-                Image image = new Image
-                {
-                    Source = ImageSource.FromStream(() => stream),
-                    BackgroundColor = Color.Gray
-                };
 
-                return image;
+                Stream stream = await DependencyService.Get<IPicturePicker>().GetImageStreamAsync().ConfigureAwait(false);
+
+                if (stream != null)
+                {
+                    Image image = new Image
+                    {
+                        Source = ImageSource.FromStream(() => stream),
+                        BackgroundColor = Color.Gray
+                    };
+
+                    return image;
+                }
             }
 
             return null;
