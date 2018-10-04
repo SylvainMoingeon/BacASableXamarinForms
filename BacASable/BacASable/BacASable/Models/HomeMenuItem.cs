@@ -6,6 +6,7 @@ namespace BacASable.Models
 {
     public enum MenuItemType
     {
+        SfAutocomplete,
         SfImageEditor,
         Browse,
         About

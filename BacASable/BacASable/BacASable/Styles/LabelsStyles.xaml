@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:styles="clr-namespace:BacASable.Styles;assembly=BacASable"
+                    xmlns:components="clr-namespace:BacASable.Components;assembly=BacASable"
+                    x:Class="BacASable.Styles.LabelsStyles">
+
+    <ResourceDictionary.MergedDictionaries>
+        <styles:ColorsStyles />
+        <styles:FontsStyles />
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <Style x:Key="DefaultLabelMediumStyle" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoMedium}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <Style x:Key="SmallLabelMediumStyle" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoMedium}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <!--<Style x:Key="SmallLabelHyperlinkStyle" TargetType="components:HyperlinkLabel" >
+        <Setter Property="FontFamily" Value="{StaticResource LatoMedium}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource HyperlinkBlueColor}" />
+    </Style>
+
+    <Style x:Key="DefaultLabelHyperlinkStyle" TargetType="components:HyperlinkLabel" >
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />       
+    </Style>-->
+
+    <Style x:Key="CardTitleLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <Style x:Key="CardSubTitleLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+    </Style>
+
+    <Style x:Key="CardMainLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="Black" />
+    </Style>
+
+    <Style x:Key="CardText" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallMediumFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource SoftGrayColor}" />
+    </Style>
+
+    <Style x:Key="CardWishes" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource SoftGrayColor}" />
+    </Style>
+
+    <Style x:Key="LabelInFrameBorderStyle" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoSemibold}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <Style x:Key="StayTitleLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoSemibold}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+    </Style>
+
+    <Style x:Key="StayTitleEstayersLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoBlack}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+    </Style>
+
+    <Style x:Key="StayDateLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource SoftGrayColor}" />
+    </Style>
+
+
+    <Style x:Key="ProfileTitleLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <!-- START MESSAGES LABEL STYLES -->
+
+    <Style x:Key="MessageNameLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <Style x:Key="MessageJobTitleLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <Style x:Key="MessageMessageContentLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+    <!-- END MESSAGES LABEL STYLES -->
+
+    <!--<Style x:Key="DefaultBorderedLabelStyle" TargetType="components:BorderedLabel">
+        <Setter Property="CornerRadius">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="x:Single">
+                    <On Platform="iOS" Value="15" />
+                    <On Platform="Android" Value="45" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderColor" Value="{StaticResource BlueGreenColor}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+        <Setter Property="BorderStroke">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="x:Int32">
+                    <On Platform="iOS" Value="1" />
+                    <On Platform="Android" Value="2" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="Padding">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="15,8" />
+                    <On Platform="Android" Value="40,20" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Fill" Value="White" />
+    </Style>-->
+
+
+
+    <!--<Style x:Key="BorderedLabelBigGrayStyle" TargetType="components:BorderedLabel">
+        <Setter Property="CornerRadius">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="x:Single">
+                    <On Platform="iOS" Value="25" />
+                    <On Platform="Android" Value="75" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderColor" Value="{StaticResource ListItemGray}" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+        <Setter Property="BorderStroke">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="x:Int32">
+                    <On Platform="iOS" Value="1" />
+                    <On Platform="Android" Value="2" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="Padding">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="30" />
+                    --><!--<On Platform="Android" Value="60,50,0,30" />--><!--
+                    <On Platform="Android" Value="60,0,0,0" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="Fill" Value="{StaticResource ListItemGray}" />
+        <Setter Property="Margin" Value="0,5" />
+    </Style>
+
+
+    <Style x:Key="BorderedLabelBigWhiteStyle" TargetType="components:BorderedLabel"  BasedOn="{StaticResource BorderedLabelBigGrayStyle}" >
+        <Setter Property="Fill" Value="White" />
+    </Style>-->
+
+
+    <Style x:Key="CardIsConnectedLabel" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="End" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="BackgroundColor" Value="{StaticResource BlueGreenColor}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="FontFamily" Value="{StaticResource LatoRegular}" />
+        <Setter Property="WidthRequest" Value="70" />
+        <Setter Property="HeightRequest" Value="20" />
+    </Style>
+
+    <Style x:Key="CardActionLabel" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SoftGrayColor}" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+        <Setter Property="FontFamily" Value="{StaticResource LatoSemibold}" />
+    </Style>
+
+    <Style x:Key="TitleLabelMediumStyle" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoMedium}" />
+        <Setter Property="FontSize" Value="32" />
+        <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+    </Style>
+
+
+    <Style x:Key="TitleFormCenteredLabel" TargetType="Label" BaseResourceKey="TitleLabelMediumStyle">
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="DefaultFormCenteredLabel"  TargetType="Label" BaseResourceKey="DefaultLabelMediumStyle">
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="LineBreakMode" Value="WordWrap" />
+        <Setter Property="Margin" Value="20,0" />
+    </Style>
+
+    <Style x:Key="StayTitleEstayersLabel2" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+        <Setter Property="FontSize" Value="{StaticResource SmallMediumFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+    </Style>
+</ResourceDictionary>

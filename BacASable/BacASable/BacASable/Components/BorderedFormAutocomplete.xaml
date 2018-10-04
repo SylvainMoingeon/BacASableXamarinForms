@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:components="clr-namespace:BacASable.Components;assembly=BacASable"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+             x:Class="BacASable.Components.BorderedFormAutocomplete"
+             x:Name="this"             >
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BorderedFormEntryFrameStyle" TargetType="Frame">
+                <Setter Property="HasShadow" Value="false" />
+                <!--<Setter Property="HeightRequest" Value="45" />-->
+                <!--<Setter Property="WidthRequest" Value="200" />-->
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="BackgroundColor" Value="{StaticResource EstayGray}" />
+                <Setter Property="Margin" Value="10,5" />
+                <Setter Property="Padding" Value="0" />
+            </Style>
+
+            <Style x:Key="EstaySfAutocompleteStyle" TargetType="syncfusion:SfAutoComplete">
+                <Setter Property="TextSize" Value="{StaticResource MediumFontSize}" />
+                <Setter Property="WatermarkColor" Value="{StaticResource AlmostBlackColor}" />
+                <Setter Property="FontFamily" Value="{StaticResource LatoMediumItalic}" />
+                <Setter Property="DropDownItemFontFamily" Value="{StaticResource LatoMediumItalic}" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="BackgroundColor" Value="{StaticResource EstayGray}" />
+                <Setter Property="DropDownBackgroundColor" Value="{StaticResource EstayGray}" />
+                <Setter Property="ShowBorder" Value="False" />
+                <Setter Property="DropDownCornerRadius" Value="20" />
+            </Style>
+
+
+            <Style x:Key="CardTitleLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+                <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+                <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <ContentView.Content>
+        <StackLayout >
+            <Label x:Name="RelatedLabel"
+                       Style="{StaticResource CardTitleLabel}"   
+                       Margin="10,0,10,0"                        
+                       >
+                <Label.GestureRecognizers >
+                    <TapGestureRecognizer Tapped="LabelTapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Frame Style="{StaticResource BorderedFormEntryFrameStyle}">
+
+                <syncfusion:SfAutoComplete
+                        x:Name="RelatedAutoComplete" 
+                        Margin="15,0,10,0" 
+                        DataSource="{Binding ItemsSource, Source={x:Reference this}}"
+                        DisplayMemberPath="{Binding DisplayMemberPath, Source={x:Reference this}}"
+                        SelectedItem="{Binding SelectedItem, Source={x:Reference this}, Mode=TwoWay}"
+                        Watermark="{Binding Watermark,Source={x:Reference this}}"
+                        WatermarkColor="{Binding WatermarkColor,Source={x:Reference this}}"
+                                       
+                        Unfocused="RelatedAutoComplete_Unfocused"
+                        Focused="RelatedAutoComplete_Focused"
+                    
+                        Style="{StaticResource EstaySfAutocompleteStyle}"
+                    />
+            </Frame>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

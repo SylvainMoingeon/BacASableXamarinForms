@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:styles="clr-namespace:BacASable.Styles;assembly=BacASable"
+             xmlns:components="clr-namespace:BacASable.Components;assembly=BacASable"
+             x:Class="BacASable.Styles.ButtonsStyles">
+    <ResourceDictionary.MergedDictionaries>
+        <styles:ColorsStyles />
+        <styles:FontsStyles />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--<Style x:Key="DefaultBorderedButtonStyle" TargetType="components:BorderedButton">
+        <Setter Property="FontFamily" Value="{StaticResource LatoMedium}" />
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+        <Setter Property="BorderColor" Value="{StaticResource BlueGreenColor}" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="CornerRadius" Value="25" />
+        <Setter Property="HeightRequest">
+            <Setter.Value>
+                <OnPlatform x:TypeArguments="x:Double">
+                    <On Platform="iOS" Value="50" />
+                    <On Platform="Android" Value="50" />
+                </OnPlatform>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+
+
+    <!--<Style x:Key="BorderedButtonWhiteStyle" TargetType="components:BorderedButton" BasedOn="{StaticResource DefaultBorderedButtonStyle}">
+        <Setter Property="TextColor" Value="{StaticResource BlueGreenColor}" />
+        <Setter Property="BackgroundColor" Value="White" />
+    </Style>
+
+    <Style x:Key="BorderedButtonGreenStyle" TargetType="components:BorderedButton" BasedOn="{StaticResource DefaultBorderedButtonStyle}">
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="BackgroundColor" Value="{StaticResource BlueGreenColor}" />
+    </Style>
+
+    <Style x:Key="BorderedButtonGreenStyleSquared" TargetType="components:BorderedButton" BasedOn="{StaticResource BorderedButtonGreenStyle}">
+        <Setter Property="CornerRadius" Value="0" />
+        <Setter Property="FontSize" Value="{StaticResource SmallMediumFontSize}"                />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>-->
+
+</ResourceDictionary>

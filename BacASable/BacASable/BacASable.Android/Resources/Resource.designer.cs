@@ -26,6 +26,46 @@ namespace BacASable.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteBorderColor = global::BacASable.Droid.Resource.Attribute.autocompleteBorderColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowBorder = global::BacASable.Droid.Resource.Attribute.autocompleteShowBorder;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowClearButton = global::BacASable.Droid.Resource.Attribute.autocompleteShowClearButton;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteText = global::BacASable.Droid.Resource.Attribute.autocompleteText;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTextColor = global::BacASable.Droid.Resource.Attribute.autocompleteTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTextSize = global::BacASable.Droid.Resource.Attribute.autocompleteTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteWatermark = global::BacASable.Droid.Resource.Attribute.autocompleteWatermark;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteWatermarkColor = global::BacASable.Droid.Resource.Attribute.autocompleteWatermarkColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.layoutManager = global::BacASable.Droid.Resource.Attribute.layoutManager;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.reverseLayout = global::BacASable.Droid.Resource.Attribute.reverseLayout;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.spanCount = global::BacASable.Droid.Resource.Attribute.spanCount;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.stackFromEnd = global::BacASable.Droid.Resource.Attribute.stackFromEnd;
+			global::Com.Syncfusion.Autocomplete.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::BacASable.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Com.Syncfusion.Autocomplete.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::BacASable.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Com.Syncfusion.Autocomplete.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::BacASable.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Com.Syncfusion.Autocomplete.Resource.Drawable.sfclosebutton = global::BacASable.Droid.Resource.Drawable.sfclosebutton;
+			global::Com.Syncfusion.Autocomplete.Resource.Drawable.styleinfo = global::BacASable.Droid.Resource.Drawable.styleinfo;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.Itemname = global::BacASable.Droid.Resource.Id.Itemname;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.icon = global::BacASable.Droid.Resource.Id.icon;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.item_touch_helper_previous_elevation = global::BacASable.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView = global::BacASable.Droid.Resource.Layout.CustomizedView;
+			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView1 = global::BacASable.Droid.Resource.Layout.CustomizedView1;
+			global::Com.Syncfusion.Autocomplete.Resource.Layout.sfautocomplete_layout = global::BacASable.Droid.Resource.Layout.sfautocomplete_layout;
+			global::Com.Syncfusion.Autocomplete.Resource.String.library_name = global::BacASable.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView = global::BacASable.Droid.Resource.Styleable.RecyclerView;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_android_descendantFocusability = global::BacASable.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_android_orientation = global::BacASable.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_layoutManager = global::BacASable.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_reverseLayout = global::BacASable.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_spanCount = global::BacASable.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_stackFromEnd = global::BacASable.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete = global::BacASable.Droid.Resource.Styleable.SfAutoComplete;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteBorderColor = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteBorderColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowBorder = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowBorder;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowClearButton = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowClearButton;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteText = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteText;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextColor = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextSize = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermark = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermark;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor = global::BacASable.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Animation.alphaanimation = global::BacASable.Droid.Resource.Animation.alphaanimation;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.border_layout = global::BacASable.Droid.Resource.Drawable.border_layout;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.cancelbutton = global::BacASable.Droid.Resource.Drawable.cancelbutton;
@@ -34,7 +74,11 @@ namespace BacASable.Droid
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.editTextBackground = global::BacASable.Droid.Resource.Drawable.editTextBackground;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_arrow = global::BacASable.Droid.Resource.Drawable.ie_arrow;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_back = global::BacASable.Droid.Resource.Drawable.ie_back;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_bold = global::BacASable.Droid.Resource.Drawable.ie_bold;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_bold_select = global::BacASable.Droid.Resource.Drawable.ie_bold_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_cancel = global::BacASable.Droid.Resource.Drawable.ie_cancel;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_center = global::BacASable.Droid.Resource.Drawable.ie_center;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_center_select = global::BacASable.Droid.Resource.Drawable.ie_center_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_circle = global::BacASable.Droid.Resource.Drawable.ie_circle;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_colors = global::BacASable.Droid.Resource.Drawable.ie_colors;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_colors_select = global::BacASable.Droid.Resource.Drawable.ie_colors_select;
@@ -59,6 +103,10 @@ namespace BacASable.Droid
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_free_select = global::BacASable.Droid.Resource.Drawable.ie_free_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_imgeditor_Delete = global::BacASable.Droid.Resource.Drawable.ie_imgeditor_Delete;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_imgeditor_Edit = global::BacASable.Droid.Resource.Drawable.ie_imgeditor_Edit;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_italic = global::BacASable.Droid.Resource.Drawable.ie_italic;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_italic_select = global::BacASable.Droid.Resource.Drawable.ie_italic_select;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_left = global::BacASable.Droid.Resource.Drawable.ie_left;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_left_select = global::BacASable.Droid.Resource.Drawable.ie_left_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_ninesixteeselected = global::BacASable.Droid.Resource.Drawable.ie_ninesixteeselected;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_ninetosixteen = global::BacASable.Droid.Resource.Drawable.ie_ninetosixteen;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_ninetosixteen_select = global::BacASable.Droid.Resource.Drawable.ie_ninetosixteen_select;
@@ -76,6 +124,8 @@ namespace BacASable.Droid
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_rectangle = global::BacASable.Droid.Resource.Drawable.ie_rectangle;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_redo = global::BacASable.Droid.Resource.Drawable.ie_redo;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_redo_inactive = global::BacASable.Droid.Resource.Drawable.ie_redo_inactive;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_right = global::BacASable.Droid.Resource.Drawable.ie_right;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_right_select = global::BacASable.Droid.Resource.Drawable.ie_right_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_rotate = global::BacASable.Droid.Resource.Drawable.ie_rotate;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_rotate_select = global::BacASable.Droid.Resource.Drawable.ie_rotate_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_shape = global::BacASable.Droid.Resource.Drawable.ie_shape;
@@ -89,8 +139,12 @@ namespace BacASable.Droid
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_strokethickness_select = global::BacASable.Droid.Resource.Drawable.ie_strokethickness_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_text = global::BacASable.Droid.Resource.Drawable.ie_text;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_text_select = global::BacASable.Droid.Resource.Drawable.ie_text_select;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_textalignment = global::BacASable.Droid.Resource.Drawable.ie_textalignment;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_textalignment_select = global::BacASable.Droid.Resource.Drawable.ie_textalignment_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_textcolor = global::BacASable.Droid.Resource.Drawable.ie_textcolor;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_textcolor_select = global::BacASable.Droid.Resource.Drawable.ie_textcolor_select;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_texteffects = global::BacASable.Droid.Resource.Drawable.ie_texteffects;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_texteffects_select = global::BacASable.Droid.Resource.Drawable.ie_texteffects_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_threetofour = global::BacASable.Droid.Resource.Drawable.ie_threetofour;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_threetofour_select = global::BacASable.Droid.Resource.Drawable.ie_threetofour_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_threetoone = global::BacASable.Droid.Resource.Drawable.ie_threetoone;
@@ -101,6 +155,8 @@ namespace BacASable.Droid
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_transform_select = global::BacASable.Droid.Resource.Drawable.ie_transform_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_two = global::BacASable.Droid.Resource.Drawable.ie_two;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_two_select = global::BacASable.Droid.Resource.Drawable.ie_two_select;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_underline = global::BacASable.Droid.Resource.Drawable.ie_underline;
+			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_underline_select = global::BacASable.Droid.Resource.Drawable.ie_underline_select;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_undo = global::BacASable.Droid.Resource.Drawable.ie_undo;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_undo_inactive = global::BacASable.Droid.Resource.Drawable.ie_undo_inactive;
 			global::Syncfusion.SfImageEditor.XForms.Droid.Resource.Drawable.ie_undo_select = global::BacASable.Droid.Resource.Drawable.ie_undo_select;
@@ -433,6 +489,30 @@ namespace BacASable.Droid
 			
 			// aapt resource value: 0x7f010050
 			public const int autoSizeTextType = 2130772048;
+			
+			// aapt resource value: 0x7f010177
+			public const int autocompleteBorderColor = 2130772343;
+			
+			// aapt resource value: 0x7f010173
+			public const int autocompleteShowBorder = 2130772339;
+			
+			// aapt resource value: 0x7f010174
+			public const int autocompleteShowClearButton = 2130772340;
+			
+			// aapt resource value: 0x7f010179
+			public const int autocompleteText = 2130772345;
+			
+			// aapt resource value: 0x7f010176
+			public const int autocompleteTextColor = 2130772342;
+			
+			// aapt resource value: 0x7f01017a
+			public const int autocompleteTextSize = 2130772346;
+			
+			// aapt resource value: 0x7f010178
+			public const int autocompleteWatermark = 2130772344;
+			
+			// aapt resource value: 0x7f010175
+			public const int autocompleteWatermarkColor = 2130772341;
 			
 			// aapt resource value: 0x7f01002e
 			public const int background = 2130772014;
@@ -2520,26 +2600,26 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020186
-			public const int avd_hide_password_1 = 2130837894;
+			// aapt resource value: 0x7f020198
+			public const int avd_hide_password_1 = 2130837912;
 			
-			// aapt resource value: 0x7f020187
-			public const int avd_hide_password_2 = 2130837895;
+			// aapt resource value: 0x7f020199
+			public const int avd_hide_password_2 = 2130837913;
 			
-			// aapt resource value: 0x7f020188
-			public const int avd_hide_password_3 = 2130837896;
+			// aapt resource value: 0x7f02019a
+			public const int avd_hide_password_3 = 2130837914;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020189
-			public const int avd_show_password_1 = 2130837897;
+			// aapt resource value: 0x7f02019b
+			public const int avd_show_password_1 = 2130837915;
 			
-			// aapt resource value: 0x7f02018a
-			public const int avd_show_password_2 = 2130837898;
+			// aapt resource value: 0x7f02019c
+			public const int avd_show_password_2 = 2130837916;
 			
-			// aapt resource value: 0x7f02018b
-			public const int avd_show_password_3 = 2130837899;
+			// aapt resource value: 0x7f02019d
+			public const int avd_show_password_3 = 2130837917;
 			
 			// aapt resource value: 0x7f020055
 			public const int border_layout = 2130837589;
@@ -3112,349 +3192,403 @@ namespace BacASable.Droid
 			public const int ie_back = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int ie_cancel = 2130837779;
+			public const int ie_bold = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int ie_circle = 2130837780;
+			public const int ie_bold_select = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int ie_colors = 2130837781;
+			public const int ie_cancel = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int ie_colors_select = 2130837782;
+			public const int ie_center = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int ie_crop = 2130837783;
+			public const int ie_center_select = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int ie_cropfourtothree_Selected = 2130837784;
+			public const int ie_circle = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int ie_cropone = 2130837785;
+			public const int ie_colors = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int ie_delete = 2130837786;
+			public const int ie_colors_select = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int ie_fill = 2130837787;
+			public const int ie_crop = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int ie_fillcolor = 2130837788;
+			public const int ie_cropfourtothree_Selected = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int ie_fillcolor_select = 2130837789;
+			public const int ie_cropone = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int ie_fivetofour = 2130837790;
+			public const int ie_delete = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int ie_fivetofour_select = 2130837791;
+			public const int ie_fill = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int ie_flip = 2130837792;
+			public const int ie_fillcolor = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int ie_flip_select = 2130837793;
+			public const int ie_fillcolor_select = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int ie_fontfamily = 2130837794;
+			public const int ie_fivetofour = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int ie_fontfamily_select = 2130837795;
+			public const int ie_fivetofour_select = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int ie_fourtofive = 2130837796;
+			public const int ie_flip = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int ie_fourtofive_select = 2130837797;
+			public const int ie_flip_select = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int ie_fourtothree = 2130837798;
+			public const int ie_fontfamily = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int ie_fourtothree_select = 2130837799;
+			public const int ie_fontfamily_select = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int ie_free = 2130837800;
+			public const int ie_fourtofive = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int ie_free_select = 2130837801;
+			public const int ie_fourtofive_select = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int ie_imgeditor_Delete = 2130837802;
+			public const int ie_fourtothree = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int ie_imgeditor_Edit = 2130837803;
+			public const int ie_fourtothree_select = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int ie_ninesixteeselected = 2130837804;
+			public const int ie_free = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int ie_ninetosixteen = 2130837805;
+			public const int ie_free_select = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int ie_ninetosixteen_select = 2130837806;
+			public const int ie_imgeditor_Delete = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int ie_ok = 2130837807;
+			public const int ie_imgeditor_Edit = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int ie_onetothree = 2130837808;
+			public const int ie_italic = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int ie_onetothree_select = 2130837809;
+			public const int ie_italic_select = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int ie_opacity = 2130837810;
+			public const int ie_left = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int ie_opacity_select = 2130837811;
+			public const int ie_left_select = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int ie_original = 2130837812;
+			public const int ie_ninesixteeselected = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int ie_original_select = 2130837813;
+			public const int ie_ninetosixteen = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int ie_outline = 2130837814;
+			public const int ie_ninetosixteen_select = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int ie_outline_select = 2130837815;
+			public const int ie_ok = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int ie_path = 2130837816;
+			public const int ie_onetothree = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int ie_path_select = 2130837817;
+			public const int ie_onetothree_select = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int ie_rectangle = 2130837818;
+			public const int ie_opacity = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int ie_redo = 2130837819;
+			public const int ie_opacity_select = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int ie_redo_inactive = 2130837820;
+			public const int ie_original = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
-			public const int ie_rotate = 2130837821;
+			public const int ie_original_select = 2130837821;
 			
 			// aapt resource value: 0x7f02013e
-			public const int ie_rotate_select = 2130837822;
+			public const int ie_outline = 2130837822;
 			
 			// aapt resource value: 0x7f02013f
-			public const int ie_shape = 2130837823;
+			public const int ie_outline_select = 2130837823;
 			
 			// aapt resource value: 0x7f020140
-			public const int ie_shape_select = 2130837824;
+			public const int ie_path = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int ie_sixteentonine = 2130837825;
+			public const int ie_path_select = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int ie_sixteentonine_select = 2130837826;
+			public const int ie_rectangle = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int ie_square = 2130837827;
+			public const int ie_redo = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int ie_square_select = 2130837828;
+			public const int ie_redo_inactive = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int ie_squareselected = 2130837829;
+			public const int ie_right = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int ie_strokethickness = 2130837830;
+			public const int ie_right_select = 2130837830;
 			
 			// aapt resource value: 0x7f020147
-			public const int ie_strokethickness_select = 2130837831;
+			public const int ie_rotate = 2130837831;
 			
 			// aapt resource value: 0x7f020148
-			public const int ie_text = 2130837832;
+			public const int ie_rotate_select = 2130837832;
 			
 			// aapt resource value: 0x7f020149
-			public const int ie_text_select = 2130837833;
+			public const int ie_shape = 2130837833;
 			
 			// aapt resource value: 0x7f02014a
-			public const int ie_textcolor = 2130837834;
+			public const int ie_shape_select = 2130837834;
 			
 			// aapt resource value: 0x7f02014b
-			public const int ie_textcolor_select = 2130837835;
+			public const int ie_sixteentonine = 2130837835;
 			
 			// aapt resource value: 0x7f02014c
-			public const int ie_threetofour = 2130837836;
+			public const int ie_sixteentonine_select = 2130837836;
 			
 			// aapt resource value: 0x7f02014d
-			public const int ie_threetofour_select = 2130837837;
+			public const int ie_square = 2130837837;
 			
 			// aapt resource value: 0x7f02014e
-			public const int ie_threetoone = 2130837838;
+			public const int ie_square_select = 2130837838;
 			
 			// aapt resource value: 0x7f02014f
-			public const int ie_threetoone_select = 2130837839;
+			public const int ie_squareselected = 2130837839;
 			
 			// aapt resource value: 0x7f020150
-			public const int ie_threetwo = 2130837840;
+			public const int ie_strokethickness = 2130837840;
 			
 			// aapt resource value: 0x7f020151
-			public const int ie_threetwo_select = 2130837841;
+			public const int ie_strokethickness_select = 2130837841;
 			
 			// aapt resource value: 0x7f020152
-			public const int ie_transform = 2130837842;
+			public const int ie_text = 2130837842;
 			
 			// aapt resource value: 0x7f020153
-			public const int ie_transform_select = 2130837843;
+			public const int ie_text_select = 2130837843;
 			
 			// aapt resource value: 0x7f020154
-			public const int ie_two = 2130837844;
+			public const int ie_textalignment = 2130837844;
 			
 			// aapt resource value: 0x7f020155
-			public const int ie_two_select = 2130837845;
+			public const int ie_textalignment_select = 2130837845;
 			
 			// aapt resource value: 0x7f020156
-			public const int ie_undo = 2130837846;
+			public const int ie_textcolor = 2130837846;
 			
 			// aapt resource value: 0x7f020157
-			public const int ie_undo_inactive = 2130837847;
+			public const int ie_textcolor_select = 2130837847;
 			
 			// aapt resource value: 0x7f020158
-			public const int ie_undo_select = 2130837848;
+			public const int ie_texteffects = 2130837848;
 			
 			// aapt resource value: 0x7f020159
-			public const int layoutBorder = 2130837849;
+			public const int ie_texteffects_select = 2130837849;
 			
 			// aapt resource value: 0x7f02015a
-			public const int mr_button_connected_dark = 2130837850;
+			public const int ie_threetofour = 2130837850;
 			
 			// aapt resource value: 0x7f02015b
-			public const int mr_button_connected_light = 2130837851;
+			public const int ie_threetofour_select = 2130837851;
 			
 			// aapt resource value: 0x7f02015c
-			public const int mr_button_connecting_dark = 2130837852;
+			public const int ie_threetoone = 2130837852;
 			
 			// aapt resource value: 0x7f02015d
-			public const int mr_button_connecting_light = 2130837853;
+			public const int ie_threetoone_select = 2130837853;
 			
 			// aapt resource value: 0x7f02015e
-			public const int mr_button_dark = 2130837854;
+			public const int ie_threetwo = 2130837854;
 			
 			// aapt resource value: 0x7f02015f
-			public const int mr_button_light = 2130837855;
+			public const int ie_threetwo_select = 2130837855;
 			
 			// aapt resource value: 0x7f020160
-			public const int mr_dialog_close_dark = 2130837856;
+			public const int ie_transform = 2130837856;
 			
 			// aapt resource value: 0x7f020161
-			public const int mr_dialog_close_light = 2130837857;
+			public const int ie_transform_select = 2130837857;
 			
 			// aapt resource value: 0x7f020162
-			public const int mr_dialog_material_background_dark = 2130837858;
+			public const int ie_two = 2130837858;
 			
 			// aapt resource value: 0x7f020163
-			public const int mr_dialog_material_background_light = 2130837859;
+			public const int ie_two_select = 2130837859;
 			
 			// aapt resource value: 0x7f020164
-			public const int mr_group_collapse = 2130837860;
+			public const int ie_underline = 2130837860;
 			
 			// aapt resource value: 0x7f020165
-			public const int mr_group_expand = 2130837861;
+			public const int ie_underline_select = 2130837861;
 			
 			// aapt resource value: 0x7f020166
-			public const int mr_media_pause_dark = 2130837862;
+			public const int ie_undo = 2130837862;
 			
 			// aapt resource value: 0x7f020167
-			public const int mr_media_pause_light = 2130837863;
+			public const int ie_undo_inactive = 2130837863;
 			
 			// aapt resource value: 0x7f020168
-			public const int mr_media_play_dark = 2130837864;
+			public const int ie_undo_select = 2130837864;
 			
 			// aapt resource value: 0x7f020169
-			public const int mr_media_play_light = 2130837865;
+			public const int layoutBorder = 2130837865;
 			
 			// aapt resource value: 0x7f02016a
-			public const int mr_media_stop_dark = 2130837866;
+			public const int mr_button_connected_dark = 2130837866;
 			
 			// aapt resource value: 0x7f02016b
-			public const int mr_media_stop_light = 2130837867;
+			public const int mr_button_connected_light = 2130837867;
 			
 			// aapt resource value: 0x7f02016c
-			public const int mr_vol_type_audiotrack_dark = 2130837868;
+			public const int mr_button_connecting_dark = 2130837868;
 			
 			// aapt resource value: 0x7f02016d
-			public const int mr_vol_type_audiotrack_light = 2130837869;
+			public const int mr_button_connecting_light = 2130837869;
 			
 			// aapt resource value: 0x7f02016e
-			public const int navigation_empty_icon = 2130837870;
+			public const int mr_button_dark = 2130837870;
 			
 			// aapt resource value: 0x7f02016f
-			public const int notification_action_background = 2130837871;
+			public const int mr_button_light = 2130837871;
 			
 			// aapt resource value: 0x7f020170
-			public const int notification_bg = 2130837872;
+			public const int mr_dialog_close_dark = 2130837872;
 			
 			// aapt resource value: 0x7f020171
-			public const int notification_bg_low = 2130837873;
+			public const int mr_dialog_close_light = 2130837873;
 			
 			// aapt resource value: 0x7f020172
-			public const int notification_bg_low_normal = 2130837874;
+			public const int mr_dialog_material_background_dark = 2130837874;
 			
 			// aapt resource value: 0x7f020173
-			public const int notification_bg_low_pressed = 2130837875;
+			public const int mr_dialog_material_background_light = 2130837875;
 			
 			// aapt resource value: 0x7f020174
-			public const int notification_bg_normal = 2130837876;
+			public const int mr_group_collapse = 2130837876;
 			
 			// aapt resource value: 0x7f020175
-			public const int notification_bg_normal_pressed = 2130837877;
+			public const int mr_group_expand = 2130837877;
 			
 			// aapt resource value: 0x7f020176
-			public const int notification_icon_background = 2130837878;
-			
-			// aapt resource value: 0x7f020184
-			public const int notification_template_icon_bg = 2130837892;
-			
-			// aapt resource value: 0x7f020185
-			public const int notification_template_icon_low_bg = 2130837893;
+			public const int mr_media_pause_dark = 2130837878;
 			
 			// aapt resource value: 0x7f020177
-			public const int notification_tile_bg = 2130837879;
+			public const int mr_media_pause_light = 2130837879;
 			
 			// aapt resource value: 0x7f020178
-			public const int notify_panel_notification_icon_bg = 2130837880;
+			public const int mr_media_play_dark = 2130837880;
 			
 			// aapt resource value: 0x7f020179
-			public const int okbutton = 2130837881;
+			public const int mr_media_play_light = 2130837881;
 			
 			// aapt resource value: 0x7f02017a
-			public const int redoButton = 2130837882;
+			public const int mr_media_stop_dark = 2130837882;
 			
 			// aapt resource value: 0x7f02017b
-			public const int roundCornerButton = 2130837883;
+			public const int mr_media_stop_light = 2130837883;
 			
 			// aapt resource value: 0x7f02017c
-			public const int savebutton = 2130837884;
+			public const int mr_vol_type_audiotrack_dark = 2130837884;
 			
 			// aapt resource value: 0x7f02017d
-			public const int Separator = 2130837885;
+			public const int mr_vol_type_audiotrack_light = 2130837885;
 			
 			// aapt resource value: 0x7f02017e
-			public const int text_color_button = 2130837886;
+			public const int navigation_empty_icon = 2130837886;
 			
 			// aapt resource value: 0x7f02017f
-			public const int tooltip_frame_dark = 2130837887;
+			public const int notification_action_background = 2130837887;
 			
 			// aapt resource value: 0x7f020180
-			public const int tooltip_frame_light = 2130837888;
+			public const int notification_bg = 2130837888;
 			
 			// aapt resource value: 0x7f020181
-			public const int undo_redo_background = 2130837889;
+			public const int notification_bg_low = 2130837889;
 			
 			// aapt resource value: 0x7f020182
-			public const int undoButton = 2130837890;
+			public const int notification_bg_low_normal = 2130837890;
 			
 			// aapt resource value: 0x7f020183
-			public const int xamarin_logo = 2130837891;
+			public const int notification_bg_low_pressed = 2130837891;
+			
+			// aapt resource value: 0x7f020184
+			public const int notification_bg_normal = 2130837892;
+			
+			// aapt resource value: 0x7f020185
+			public const int notification_bg_normal_pressed = 2130837893;
+			
+			// aapt resource value: 0x7f020186
+			public const int notification_icon_background = 2130837894;
+			
+			// aapt resource value: 0x7f020196
+			public const int notification_template_icon_bg = 2130837910;
+			
+			// aapt resource value: 0x7f020197
+			public const int notification_template_icon_low_bg = 2130837911;
+			
+			// aapt resource value: 0x7f020187
+			public const int notification_tile_bg = 2130837895;
+			
+			// aapt resource value: 0x7f020188
+			public const int notify_panel_notification_icon_bg = 2130837896;
+			
+			// aapt resource value: 0x7f020189
+			public const int okbutton = 2130837897;
+			
+			// aapt resource value: 0x7f02018a
+			public const int redoButton = 2130837898;
+			
+			// aapt resource value: 0x7f02018b
+			public const int roundCornerButton = 2130837899;
+			
+			// aapt resource value: 0x7f02018c
+			public const int savebutton = 2130837900;
+			
+			// aapt resource value: 0x7f02018d
+			public const int Separator = 2130837901;
+			
+			// aapt resource value: 0x7f02018e
+			public const int sfclosebutton = 2130837902;
+			
+			// aapt resource value: 0x7f02018f
+			public const int styleinfo = 2130837903;
+			
+			// aapt resource value: 0x7f020190
+			public const int text_color_button = 2130837904;
+			
+			// aapt resource value: 0x7f020191
+			public const int tooltip_frame_dark = 2130837905;
+			
+			// aapt resource value: 0x7f020192
+			public const int tooltip_frame_light = 2130837906;
+			
+			// aapt resource value: 0x7f020193
+			public const int undo_redo_background = 2130837907;
+			
+			// aapt resource value: 0x7f020194
+			public const int undoButton = 2130837908;
+			
+			// aapt resource value: 0x7f020195
+			public const int xamarin_logo = 2130837909;
 			
 			static Drawable()
 			{
@@ -3478,6 +3612,9 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090034
 			public const int FUNCTION = 2131296308;
 			
+			// aapt resource value: 0x7f09008f
+			public const int Itemname = 2131296399;
+			
 			// aapt resource value: 0x7f090035
 			public const int META = 2131296309;
 			
@@ -3487,8 +3624,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090037
 			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int action0 = 2131296450;
+			// aapt resource value: 0x7f0900c3
+			public const int action0 = 2131296451;
 			
 			// aapt resource value: 0x7f09007c
 			public const int action_bar = 2131296380;
@@ -3511,17 +3648,17 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09005a
 			public const int action_bar_title = 2131296346;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int action_container = 2131296447;
+			// aapt resource value: 0x7f0900c0
+			public const int action_container = 2131296448;
 			
 			// aapt resource value: 0x7f09007d
 			public const int action_context_bar = 2131296381;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int action_divider = 2131296454;
+			// aapt resource value: 0x7f0900c7
+			public const int action_divider = 2131296455;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int action_image = 2131296448;
+			// aapt resource value: 0x7f0900c1
+			public const int action_image = 2131296449;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3538,11 +3675,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09005c
 			public const int action_mode_close_button = 2131296348;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int action_text = 2131296449;
+			// aapt resource value: 0x7f0900c2
+			public const int action_text = 2131296450;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int actions = 2131296463;
+			// aapt resource value: 0x7f0900d0
+			public const int actions = 2131296464;
 			
 			// aapt resource value: 0x7f09005d
 			public const int activity_chooser_view_content = 2131296349;
@@ -3550,8 +3687,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090027
 			public const int add = 2131296295;
 			
-			// aapt resource value: 0x7f0900e7
-			public const int addText = 2131296487;
+			// aapt resource value: 0x7f0900e8
+			public const int addText = 2131296488;
 			
 			// aapt resource value: 0x7f090070
 			public const int alertTitle = 2131296368;
@@ -3562,14 +3699,14 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090038
 			public const int always = 2131296312;
 			
-			// aapt resource value: 0x7f0900e2
-			public const int arrow = 2131296482;
+			// aapt resource value: 0x7f0900e3
+			public const int arrow = 2131296483;
 			
 			// aapt resource value: 0x7f09008c
 			public const int arrowColor = 2131296396;
 			
-			// aapt resource value: 0x7f0900e3
-			public const int arrowLayout = 2131296483;
+			// aapt resource value: 0x7f0900e4
+			public const int arrowLayout = 2131296484;
 			
 			// aapt resource value: 0x7f090056
 			public const int async = 2131296342;
@@ -3577,11 +3714,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090044
 			public const int auto = 2131296324;
 			
-			// aapt resource value: 0x7f0900f3
-			public const int backBtn = 2131296499;
+			// aapt resource value: 0x7f0900f4
+			public const int backBtn = 2131296500;
 			
-			// aapt resource value: 0x7f0900f2
-			public const int backBtnLayout = 2131296498;
+			// aapt resource value: 0x7f0900f3
+			public const int backBtnLayout = 2131296499;
 			
 			// aapt resource value: 0x7f09002f
 			public const int beginning = 2131296303;
@@ -3595,8 +3732,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090063
 			public const int buttonPanel = 2131296355;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int cancel_action = 2131296451;
+			// aapt resource value: 0x7f0900c4
+			public const int cancel_action = 2131296452;
 			
 			// aapt resource value: 0x7f090045
 			public const int center = 2131296325;
@@ -3610,14 +3747,14 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090073
 			public const int checkbox = 2131296371;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int chronometer = 2131296459;
-			
-			// aapt resource value: 0x7f0900e0
-			public const int circle = 2131296480;
+			// aapt resource value: 0x7f0900cc
+			public const int chronometer = 2131296460;
 			
 			// aapt resource value: 0x7f0900e1
-			public const int circleLayout = 2131296481;
+			public const int circle = 2131296481;
+			
+			// aapt resource value: 0x7f0900e2
+			public const int circleLayout = 2131296482;
 			
 			// aapt resource value: 0x7f09004e
 			public const int clip_horizontal = 2131296334;
@@ -3628,26 +3765,26 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090039
 			public const int collapseActionView = 2131296313;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int color = 2131296469;
+			// aapt resource value: 0x7f0900d6
+			public const int color = 2131296470;
 			
 			// aapt resource value: 0x7f09008d
 			public const int colorLayout = 2131296397;
 			
-			// aapt resource value: 0x7f090091
-			public const int container = 2131296401;
+			// aapt resource value: 0x7f090092
+			public const int container = 2131296402;
 			
 			// aapt resource value: 0x7f090066
 			public const int contentPanel = 2131296358;
 			
-			// aapt resource value: 0x7f090092
-			public const int coordinator = 2131296402;
-			
-			// aapt resource value: 0x7f0900f8
-			public const int crop = 2131296504;
+			// aapt resource value: 0x7f090093
+			public const int coordinator = 2131296403;
 			
 			// aapt resource value: 0x7f0900f9
-			public const int cropLayout = 2131296505;
+			public const int crop = 2131296505;
+			
+			// aapt resource value: 0x7f0900fa
+			public const int cropLayout = 2131296506;
 			
 			// aapt resource value: 0x7f09006d
 			public const int custom = 2131296365;
@@ -3661,26 +3798,26 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090060
 			public const int default_activity_button = 2131296352;
 			
+			// aapt resource value: 0x7f0900ef
+			public const int delete = 2131296495;
+			
 			// aapt resource value: 0x7f0900ee
-			public const int delete = 2131296494;
+			public const int deleteLayout = 2131296494;
 			
-			// aapt resource value: 0x7f0900ed
-			public const int deleteLayout = 2131296493;
+			// aapt resource value: 0x7f090095
+			public const int design_bottom_sheet = 2131296405;
 			
-			// aapt resource value: 0x7f090094
-			public const int design_bottom_sheet = 2131296404;
+			// aapt resource value: 0x7f09009c
+			public const int design_menu_item_action_area = 2131296412;
 			
 			// aapt resource value: 0x7f09009b
-			public const int design_menu_item_action_area = 2131296411;
+			public const int design_menu_item_action_area_stub = 2131296411;
 			
 			// aapt resource value: 0x7f09009a
-			public const int design_menu_item_action_area_stub = 2131296410;
+			public const int design_menu_item_text = 2131296410;
 			
 			// aapt resource value: 0x7f090099
-			public const int design_menu_item_text = 2131296409;
-			
-			// aapt resource value: 0x7f090098
-			public const int design_navigation_view = 2131296408;
+			public const int design_navigation_view = 2131296409;
 			
 			// aapt resource value: 0x7f090020
 			public const int disableHome = 2131296288;
@@ -3691,8 +3828,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090030
 			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int end_padder = 2131296465;
+			// aapt resource value: 0x7f0900d2
+			public const int end_padder = 2131296466;
 			
 			// aapt resource value: 0x7f09003f
 			public const int enterAlways = 2131296319;
@@ -3712,8 +3849,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090050
 			public const int fill = 2131296336;
 			
-			// aapt resource value: 0x7f0900db
-			public const int fillText = 2131296475;
+			// aapt resource value: 0x7f0900dc
+			public const int fillText = 2131296476;
 			
 			// aapt resource value: 0x7f090051
 			public const int fill_horizontal = 2131296337;
@@ -3721,23 +3858,23 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090048
 			public const int fill_vertical = 2131296328;
 			
-			// aapt resource value: 0x7f0900da
-			public const int filllayout = 2131296474;
+			// aapt resource value: 0x7f0900db
+			public const int filllayout = 2131296475;
 			
-			// aapt resource value: 0x7f0900ea
-			public const int five = 2131296490;
+			// aapt resource value: 0x7f0900eb
+			public const int five = 2131296491;
 			
 			// aapt resource value: 0x7f090054
 			public const int @fixed = 2131296340;
 			
-			// aapt resource value: 0x7f0900fc
-			public const int flip = 2131296508;
-			
 			// aapt resource value: 0x7f0900fd
-			public const int flipLayout = 2131296509;
+			public const int flip = 2131296509;
 			
-			// aapt resource value: 0x7f0900f5
-			public const int footerScrollView = 2131296501;
+			// aapt resource value: 0x7f0900fe
+			public const int flipLayout = 2131296510;
+			
+			// aapt resource value: 0x7f0900f6
+			public const int footerScrollView = 2131296502;
 			
 			// aapt resource value: 0x7f090058
 			public const int forever = 2131296344;
@@ -3745,11 +3882,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09000a
 			public const int ghost_view = 2131296266;
 			
-			// aapt resource value: 0x7f09009f
-			public const int headerLayout = 2131296415;
+			// aapt resource value: 0x7f0900a0
+			public const int headerLayout = 2131296416;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int headerScrollView = 2131296417;
+			// aapt resource value: 0x7f0900a2
+			public const int headerScrollView = 2131296418;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -3763,11 +3900,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090062
 			public const int icon = 2131296354;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int icon_group = 2131296464;
+			// aapt resource value: 0x7f0900d1
+			public const int icon_group = 2131296465;
 			
-			// aapt resource value: 0x7f09009e
-			public const int ie_newfillText = 2131296414;
+			// aapt resource value: 0x7f09009f
+			public const int ie_newfillText = 2131296415;
 			
 			// aapt resource value: 0x7f09003a
 			public const int ifRoom = 2131296314;
@@ -3775,17 +3912,17 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09005f
 			public const int image = 2131296351;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int imageHolder = 2131296419;
-			
-			// aapt resource value: 0x7f0900a2
-			public const int imageLayout = 2131296418;
-			
 			// aapt resource value: 0x7f0900a4
-			public const int imageView = 2131296420;
+			public const int imageHolder = 2131296420;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int info = 2131296460;
+			// aapt resource value: 0x7f0900a3
+			public const int imageLayout = 2131296419;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int imageView = 2131296421;
+			
+			// aapt resource value: 0x7f0900cd
+			public const int info = 2131296461;
 			
 			// aapt resource value: 0x7f090059
 			public const int italic = 2131296345;
@@ -3793,8 +3930,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f090090
-			public const int largeLabel = 2131296400;
+			// aapt resource value: 0x7f090091
+			public const int largeLabel = 2131296401;
 			
 			// aapt resource value: 0x7f090049
 			public const int left = 2131296329;
@@ -3811,17 +3948,17 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0900f1
-			public const int mainLayout = 2131296497;
+			// aapt resource value: 0x7f0900f2
+			public const int mainLayout = 2131296498;
 			
-			// aapt resource value: 0x7f0900ff
-			public const int masked = 2131296511;
+			// aapt resource value: 0x7f090100
+			public const int masked = 2131296512;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int media_actions = 2131296453;
+			// aapt resource value: 0x7f0900c6
+			public const int media_actions = 2131296454;
 			
-			// aapt resource value: 0x7f0900f6
-			public const int message = 2131296502;
+			// aapt resource value: 0x7f0900f7
+			public const int message = 2131296503;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -3829,92 +3966,92 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090053
 			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int mr_art = 2131296433;
-			
-			// aapt resource value: 0x7f0900a6
-			public const int mr_chooser_list = 2131296422;
-			
-			// aapt resource value: 0x7f0900a9
-			public const int mr_chooser_route_desc = 2131296425;
+			// aapt resource value: 0x7f0900b2
+			public const int mr_art = 2131296434;
 			
 			// aapt resource value: 0x7f0900a7
-			public const int mr_chooser_route_icon = 2131296423;
-			
-			// aapt resource value: 0x7f0900a8
-			public const int mr_chooser_route_name = 2131296424;
-			
-			// aapt resource value: 0x7f0900a5
-			public const int mr_chooser_title = 2131296421;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int mr_close = 2131296430;
-			
-			// aapt resource value: 0x7f0900b4
-			public const int mr_control_divider = 2131296436;
-			
-			// aapt resource value: 0x7f0900ba
-			public const int mr_control_playback_ctrl = 2131296442;
-			
-			// aapt resource value: 0x7f0900bd
-			public const int mr_control_subtitle = 2131296445;
-			
-			// aapt resource value: 0x7f0900bc
-			public const int mr_control_title = 2131296444;
-			
-			// aapt resource value: 0x7f0900bb
-			public const int mr_control_title_container = 2131296443;
-			
-			// aapt resource value: 0x7f0900af
-			public const int mr_custom_control = 2131296431;
-			
-			// aapt resource value: 0x7f0900b0
-			public const int mr_default_control = 2131296432;
-			
-			// aapt resource value: 0x7f0900ab
-			public const int mr_dialog_area = 2131296427;
+			public const int mr_chooser_list = 2131296423;
 			
 			// aapt resource value: 0x7f0900aa
-			public const int mr_expandable_area = 2131296426;
+			public const int mr_chooser_route_desc = 2131296426;
 			
-			// aapt resource value: 0x7f0900be
-			public const int mr_group_expand_collapse = 2131296446;
+			// aapt resource value: 0x7f0900a8
+			public const int mr_chooser_route_icon = 2131296424;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int mr_media_main_control = 2131296434;
+			// aapt resource value: 0x7f0900a9
+			public const int mr_chooser_route_name = 2131296425;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int mr_name = 2131296429;
+			// aapt resource value: 0x7f0900a6
+			public const int mr_chooser_title = 2131296422;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int mr_playback_control = 2131296435;
-			
-			// aapt resource value: 0x7f0900ac
-			public const int mr_title_bar = 2131296428;
+			// aapt resource value: 0x7f0900af
+			public const int mr_close = 2131296431;
 			
 			// aapt resource value: 0x7f0900b5
-			public const int mr_volume_control = 2131296437;
+			public const int mr_control_divider = 2131296437;
+			
+			// aapt resource value: 0x7f0900bb
+			public const int mr_control_playback_ctrl = 2131296443;
+			
+			// aapt resource value: 0x7f0900be
+			public const int mr_control_subtitle = 2131296446;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int mr_control_title = 2131296445;
+			
+			// aapt resource value: 0x7f0900bc
+			public const int mr_control_title_container = 2131296444;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int mr_custom_control = 2131296432;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int mr_default_control = 2131296433;
+			
+			// aapt resource value: 0x7f0900ac
+			public const int mr_dialog_area = 2131296428;
+			
+			// aapt resource value: 0x7f0900ab
+			public const int mr_expandable_area = 2131296427;
+			
+			// aapt resource value: 0x7f0900bf
+			public const int mr_group_expand_collapse = 2131296447;
+			
+			// aapt resource value: 0x7f0900b3
+			public const int mr_media_main_control = 2131296435;
+			
+			// aapt resource value: 0x7f0900ae
+			public const int mr_name = 2131296430;
+			
+			// aapt resource value: 0x7f0900b4
+			public const int mr_playback_control = 2131296436;
+			
+			// aapt resource value: 0x7f0900ad
+			public const int mr_title_bar = 2131296429;
 			
 			// aapt resource value: 0x7f0900b6
-			public const int mr_volume_group_list = 2131296438;
+			public const int mr_volume_control = 2131296438;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int mr_volume_item_icon = 2131296440;
+			// aapt resource value: 0x7f0900b7
+			public const int mr_volume_group_list = 2131296439;
 			
 			// aapt resource value: 0x7f0900b9
-			public const int mr_volume_slider = 2131296441;
+			public const int mr_volume_item_icon = 2131296441;
+			
+			// aapt resource value: 0x7f0900ba
+			public const int mr_volume_slider = 2131296442;
 			
 			// aapt resource value: 0x7f090028
 			public const int multiply = 2131296296;
 			
-			// aapt resource value: 0x7f090097
-			public const int navigation_header_container = 2131296407;
+			// aapt resource value: 0x7f090098
+			public const int navigation_header_container = 2131296408;
 			
 			// aapt resource value: 0x7f09003b
 			public const int never = 2131296315;
 			
-			// aapt resource value: 0x7f09009d
-			public const int newfill = 2131296413;
+			// aapt resource value: 0x7f09009e
+			public const int newfill = 2131296414;
 			
 			// aapt resource value: 0x7f090022
 			public const int none = 2131296290;
@@ -3922,26 +4059,26 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09001e
 			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int notification_background = 2131296462;
+			// aapt resource value: 0x7f0900cf
+			public const int notification_background = 2131296463;
+			
+			// aapt resource value: 0x7f0900c9
+			public const int notification_main_column = 2131296457;
 			
 			// aapt resource value: 0x7f0900c8
-			public const int notification_main_column = 2131296456;
+			public const int notification_main_column_container = 2131296456;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int notification_main_column_container = 2131296455;
-			
-			// aapt resource value: 0x7f0900d2
-			public const int opacityslider = 2131296466;
-			
-			// aapt resource value: 0x7f0900d8
-			public const int outline = 2131296472;
+			// aapt resource value: 0x7f0900d3
+			public const int opacityslider = 2131296467;
 			
 			// aapt resource value: 0x7f0900d9
-			public const int outlineText = 2131296473;
+			public const int outline = 2131296473;
 			
-			// aapt resource value: 0x7f0900d7
-			public const int outlinelayout = 2131296471;
+			// aapt resource value: 0x7f0900da
+			public const int outlineText = 2131296474;
+			
+			// aapt resource value: 0x7f0900d8
+			public const int outlinelayout = 2131296472;
 			
 			// aapt resource value: 0x7f09004c
 			public const int parallax = 2131296332;
@@ -3952,11 +4089,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09000b
 			public const int parent_matrix = 2131296267;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int pathColors = 2131296468;
+			// aapt resource value: 0x7f0900d5
+			public const int pathColors = 2131296469;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int pathLayout = 2131296467;
+			// aapt resource value: 0x7f0900d4
+			public const int pathLayout = 2131296468;
 			
 			// aapt resource value: 0x7f09004d
 			public const int pin = 2131296333;
@@ -3970,26 +4107,26 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090075
 			public const int radio = 2131296373;
 			
-			// aapt resource value: 0x7f0900df
-			public const int rectLayout = 2131296479;
+			// aapt resource value: 0x7f0900e0
+			public const int rectLayout = 2131296480;
 			
-			// aapt resource value: 0x7f0900de
-			public const int rectangle = 2131296478;
+			// aapt resource value: 0x7f0900df
+			public const int rectangle = 2131296479;
 			
 			// aapt resource value: 0x7f09004a
 			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int right_icon = 2131296461;
+			// aapt resource value: 0x7f0900ce
+			public const int right_icon = 2131296462;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int right_side = 2131296457;
-			
-			// aapt resource value: 0x7f0900fa
-			public const int rotate = 2131296506;
+			// aapt resource value: 0x7f0900ca
+			public const int right_side = 2131296458;
 			
 			// aapt resource value: 0x7f0900fb
-			public const int rotateLayout = 2131296507;
+			public const int rotate = 2131296507;
+			
+			// aapt resource value: 0x7f0900fc
+			public const int rotateLayout = 2131296508;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -4051,17 +4188,17 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09008a
 			public const int select_dialog_listview = 2131296394;
 			
-			// aapt resource value: 0x7f0900f4
-			public const int seperator = 2131296500;
-			
-			// aapt resource value: 0x7f0900dc
-			public const int shapeColors = 2131296476;
-			
-			// aapt resource value: 0x7f0900d6
-			public const int shapecolor = 2131296470;
+			// aapt resource value: 0x7f0900f5
+			public const int seperator = 2131296501;
 			
 			// aapt resource value: 0x7f0900dd
-			public const int shapelayout = 2131296477;
+			public const int shapeColors = 2131296477;
+			
+			// aapt resource value: 0x7f0900d7
+			public const int shapecolor = 2131296471;
+			
+			// aapt resource value: 0x7f0900de
+			public const int shapelayout = 2131296478;
 			
 			// aapt resource value: 0x7f090074
 			public const int shortcut = 2131296372;
@@ -4075,20 +4212,20 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090025
 			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f0900e4
-			public const int slider = 2131296484;
-			
 			// aapt resource value: 0x7f0900e5
-			public const int sliding_tabs = 2131296485;
+			public const int slider = 2131296485;
 			
-			// aapt resource value: 0x7f09008f
-			public const int smallLabel = 2131296399;
+			// aapt resource value: 0x7f0900e6
+			public const int sliding_tabs = 2131296486;
+			
+			// aapt resource value: 0x7f090090
+			public const int smallLabel = 2131296400;
+			
+			// aapt resource value: 0x7f090097
+			public const int snackbar_action = 2131296407;
 			
 			// aapt resource value: 0x7f090096
-			public const int snackbar_action = 2131296406;
-			
-			// aapt resource value: 0x7f090095
-			public const int snackbar_text = 2131296405;
+			public const int snackbar_text = 2131296406;
 			
 			// aapt resource value: 0x7f090043
 			public const int snap = 2131296323;
@@ -4111,20 +4248,20 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09004b
 			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int status_bar_latest_event_content = 2131296452;
+			// aapt resource value: 0x7f0900c5
+			public const int status_bar_latest_event_content = 2131296453;
 			
 			// aapt resource value: 0x7f09008b
 			public const int subArrow = 2131296395;
 			
-			// aapt resource value: 0x7f0900ef
-			public const int subLayout = 2131296495;
-			
 			// aapt resource value: 0x7f0900f0
-			public const int subScrollView = 2131296496;
+			public const int subLayout = 2131296496;
 			
-			// aapt resource value: 0x7f0900e6
-			public const int subText = 2131296486;
+			// aapt resource value: 0x7f0900f1
+			public const int subScrollView = 2131296497;
+			
+			// aapt resource value: 0x7f0900e7
+			public const int subText = 2131296487;
 			
 			// aapt resource value: 0x7f090076
 			public const int submenuarrow = 2131296374;
@@ -4144,8 +4281,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09001b
 			public const int text2 = 2131296283;
 			
-			// aapt resource value: 0x7f0900e8
-			public const int textColor = 2131296488;
+			// aapt resource value: 0x7f0900e9
+			public const int textColor = 2131296489;
 			
 			// aapt resource value: 0x7f09006a
 			public const int textSpacerNoButtons = 2131296362;
@@ -4153,8 +4290,8 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
 			
-			// aapt resource value: 0x7f09009c
-			public const int text_input_password_toggle = 2131296412;
+			// aapt resource value: 0x7f09009d
+			public const int text_input_password_toggle = 2131296413;
 			
 			// aapt resource value: 0x7f090014
 			public const int textinput_counter = 2131296276;
@@ -4162,11 +4299,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900e9
-			public const int thicknessLayout = 2131296489;
+			// aapt resource value: 0x7f0900ea
+			public const int thicknessLayout = 2131296490;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int time = 2131296458;
+			// aapt resource value: 0x7f0900cb
+			public const int time = 2131296459;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -4177,26 +4314,26 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f09006f
 			public const int title_template = 2131296367;
 			
-			// aapt resource value: 0x7f0900eb
-			public const int toolbar = 2131296491;
-			
 			// aapt resource value: 0x7f0900ec
-			public const int toolbarlayout = 2131296492;
+			public const int toolbar = 2131296492;
+			
+			// aapt resource value: 0x7f0900ed
+			public const int toolbarlayout = 2131296493;
 			
 			// aapt resource value: 0x7f09003e
 			public const int top = 2131296318;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int topLayout = 2131296416;
+			// aapt resource value: 0x7f0900a1
+			public const int topLayout = 2131296417;
 			
 			// aapt resource value: 0x7f09006e
 			public const int topPanel = 2131296366;
 			
-			// aapt resource value: 0x7f090093
-			public const int touch_outside = 2131296403;
+			// aapt resource value: 0x7f090094
+			public const int touch_outside = 2131296404;
 			
-			// aapt resource value: 0x7f0900f7
-			public const int transform_view = 2131296503;
+			// aapt resource value: 0x7f0900f8
+			public const int transform_view = 2131296504;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -4225,11 +4362,11 @@ namespace BacASable.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900fe
-			public const int visible = 2131296510;
+			// aapt resource value: 0x7f0900ff
+			public const int visible = 2131296511;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int volume_item_container = 2131296439;
+			// aapt resource value: 0x7f0900b8
+			public const int volume_item_container = 2131296440;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
@@ -4406,169 +4543,178 @@ namespace BacASable.Droid
 			public const int colors_layout = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_navigation_item = 2130968604;
+			public const int CustomizedView = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_bottom_sheet_dialog = 2130968605;
+			public const int CustomizedView1 = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar = 2130968606;
+			public const int design_bottom_navigation_item = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_snackbar_include = 2130968607;
+			public const int design_bottom_sheet_dialog = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_icon = 2130968608;
+			public const int design_layout_snackbar = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_layout_tab_text = 2130968609;
+			public const int design_layout_snackbar_include = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_menu_item_action_area = 2130968610;
+			public const int design_layout_tab_icon = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item = 2130968611;
+			public const int design_layout_tab_text = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_header = 2130968612;
+			public const int design_menu_item_action_area = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_separator = 2130968613;
+			public const int design_navigation_item = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_item_subheader = 2130968614;
+			public const int design_navigation_item_header = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu = 2130968615;
+			public const int design_navigation_item_separator = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_navigation_menu_item = 2130968616;
+			public const int design_navigation_item_subheader = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int design_text_input_password_icon = 2130968617;
+			public const int design_navigation_menu = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int fill_stroke_layout = 2130968618;
+			public const int design_navigation_menu_item = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int headertoolbar_layout = 2130968619;
+			public const int design_text_input_password_icon = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int imageeditor_layout = 2130968620;
+			public const int fill_stroke_layout = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_chooser_dialog = 2130968621;
+			public const int headertoolbar_layout = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int mr_chooser_list_item = 2130968622;
+			public const int imageeditor_layout = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int mr_controller_material_dialog_b = 2130968623;
+			public const int mr_chooser_dialog = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int mr_controller_volume_item = 2130968624;
+			public const int mr_chooser_list_item = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int mr_playback_control = 2130968625;
+			public const int mr_controller_material_dialog_b = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int mr_volume_control = 2130968626;
+			public const int mr_controller_volume_item = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_action = 2130968627;
+			public const int mr_playback_control = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_action_tombstone = 2130968628;
+			public const int mr_volume_control = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_media_action = 2130968629;
+			public const int notification_action = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_media_cancel_action = 2130968630;
+			public const int notification_action_tombstone = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_big_media = 2130968631;
+			public const int notification_media_action = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_big_media_custom = 2130968632;
+			public const int notification_media_cancel_action = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_big_media_narrow = 2130968633;
+			public const int notification_template_big_media = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_big_media_narrow_custom = 2130968634;
+			public const int notification_template_big_media_custom = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_custom_big = 2130968635;
+			public const int notification_template_big_media_narrow = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_icon_group = 2130968636;
+			public const int notification_template_big_media_narrow_custom = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_template_lines_media = 2130968637;
+			public const int notification_template_custom_big = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_template_media = 2130968638;
+			public const int notification_template_icon_group = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_template_media_custom = 2130968639;
+			public const int notification_template_lines_media = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_template_part_chronometer = 2130968640;
+			public const int notification_template_media = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int notification_template_part_time = 2130968641;
+			public const int notification_template_media_custom = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int opacityslider = 2130968642;
+			public const int notification_template_part_chronometer = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int path_layout = 2130968643;
+			public const int notification_template_part_time = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int select_dialog_item_material = 2130968644;
+			public const int opacityslider = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int select_dialog_multichoice_material = 2130968645;
+			public const int path_layout = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int select_dialog_singlechoice_material = 2130968646;
+			public const int select_dialog_item_material = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int shape_colors_layout = 2130968647;
+			public const int select_dialog_multichoice_material = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int shapes_layout = 2130968648;
+			public const int select_dialog_singlechoice_material = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int slider = 2130968649;
+			public const int sfautocomplete_layout = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int stroke_fill_layout = 2130968650;
+			public const int shape_colors_layout = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int support_simple_spinner_dropdown_item = 2130968651;
+			public const int shapes_layout = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int Tabbar = 2130968652;
+			public const int slider = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int text_layout = 2130968653;
+			public const int stroke_fill_layout = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int thickness_layout = 2130968654;
+			public const int support_simple_spinner_dropdown_item = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int Toolbar = 2130968655;
+			public const int Tabbar = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int toolbar_layout = 2130968656;
+			public const int text_layout = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int tooltip = 2130968657;
+			public const int thickness_layout = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int transforms_layout = 2130968658;
+			public const int Toolbar = 2130968658;
+			
+			// aapt resource value: 0x7f040053
+			public const int toolbar_layout = 2130968659;
+			
+			// aapt resource value: 0x7f040054
+			public const int tooltip = 2130968660;
+			
+			// aapt resource value: 0x7f040055
+			public const int transforms_layout = 2130968661;
 			
 			static Layout()
 			{
@@ -4730,6 +4876,9 @@ namespace BacASable.Droid
 			
 			// aapt resource value: 0x7f0a0048
 			public const int free = 2131361864;
+			
+			// aapt resource value: 0x7f0a004d
+			public const int library_name = 2131361869;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
@@ -7721,6 +7870,40 @@ namespace BacASable.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
+			
+			public static int[] SfAutoComplete = new int[] {
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346};
+			
+			// aapt resource value: 4
+			public const int SfAutoComplete_autocompleteBorderColor = 4;
+			
+			// aapt resource value: 0
+			public const int SfAutoComplete_autocompleteShowBorder = 0;
+			
+			// aapt resource value: 1
+			public const int SfAutoComplete_autocompleteShowClearButton = 1;
+			
+			// aapt resource value: 6
+			public const int SfAutoComplete_autocompleteText = 6;
+			
+			// aapt resource value: 3
+			public const int SfAutoComplete_autocompleteTextColor = 3;
+			
+			// aapt resource value: 7
+			public const int SfAutoComplete_autocompleteTextSize = 7;
+			
+			// aapt resource value: 5
+			public const int SfAutoComplete_autocompleteWatermark = 5;
+			
+			// aapt resource value: 2
+			public const int SfAutoComplete_autocompleteWatermarkColor = 2;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,

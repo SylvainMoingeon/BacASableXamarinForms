@@ -35,6 +35,9 @@ namespace BacASable.Views
                     case (int)MenuItemType.SfImageEditor:
                         MenuPages.Add(id, new NavigationPage(new SfImageEditorPage()));
                         break;
+                    case (int)MenuItemType.SfAutocomplete:
+                        MenuPages.Add(id, new NavigationPage(new SfAutocompletePage()));
+                        break;
                 }
             }
 

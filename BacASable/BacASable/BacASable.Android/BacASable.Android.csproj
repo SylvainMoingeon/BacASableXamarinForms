@@ -52,8 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Plugin.CurrentActivity">
+      <Version>2.1.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="Plugin.Permissions">
+      <Version>3.0.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
+      <Version>16.3.0.21</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfImageEditor">
-      <Version>16.2.0.50</Version>
+      <Version>16.3.0.21</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
@@ -63,12 +72,32 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\NoBorderNoStyleEntryRenderer.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MainApplication.cs" />
     <Compile Include="PicturePickerImplementation.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\Fonts\Lato-Black.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Bold.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Hairline.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-HairlineItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Heavy.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-HeavyItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Italic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Light.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Medium.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Regular.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Semibold.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-SemiboldItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-Thin.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lato-ThinItalic.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

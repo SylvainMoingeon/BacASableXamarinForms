@@ -77,12 +77,31 @@
     <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Components\NoBorderNoStyleEntryRenderer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="PicturePickerImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\Fonts\Lato-Black.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-BlackItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Bold.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-BoldItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Hairline.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-HairlineItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Heavy.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-HeavyItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Italic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Light.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-LightItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Medium.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-MediumItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Regular.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Semibold.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-SemiboldItalic.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-Thin.ttf" />
+    <BundleResource Include="Resources\Fonts\Lato-ThinItalic.ttf" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -145,8 +164,14 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Plugin.Permissions">
+      <Version>3.0.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
+      <Version>16.3.0.21</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfImageEditor">
-      <Version>16.2.0.50</Version>
+      <Version>16.3.0.21</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>

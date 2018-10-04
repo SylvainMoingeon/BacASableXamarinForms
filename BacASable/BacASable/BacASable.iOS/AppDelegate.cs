@@ -22,6 +22,8 @@ namespace BacASable.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
+
             global::Xamarin.Forms.Forms.Init();
             Syncfusion.SfImageEditor.XForms.iOS.SfImageEditorRenderer.Init();
             LoadApplication(new App());

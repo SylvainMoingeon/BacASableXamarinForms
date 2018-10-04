@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:components="clr-namespace:BacASable.Components;assembly=BacASable"
+             x:Class="BacASable.Components.BorderedFormLabelEntry"
+             >
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BorderedFormEntryFrameStyle" TargetType="Frame">
+                <Setter Property="HasShadow" Value="false" />
+                <Setter Property="HeightRequest" Value="45" />
+                <!--<Setter Property="WidthRequest" Value="200" />-->
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="BackgroundColor" Value="{StaticResource EstayGray}" />
+                <Setter Property="Margin" Value="10,5" />
+                <Setter Property="Padding" Value="0" />
+            </Style>
+
+            <Style x:Key="NoBorderNoStyleEntryStyle" TargetType="components:NoBorderNoStyleEntry">
+                <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+                <Setter Property="PlaceholderColor" Value="{StaticResource AlmostBlackColor}" />
+                <Setter Property="PlaceHolderFontFamily" Value="{StaticResource LatoMediumItalic}" />
+                <Setter Property="FontFamily" Value="{StaticResource LatoMediumItalic}" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+
+
+            <Style x:Key="CardTitleLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+                <Setter Property="FontSize" Value="{StaticResource SmallFontSize}" />
+                <Setter Property="TextColor" Value="{StaticResource AlmostBlackColor}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <ContentView.Content>
+        <StackLayout >
+            <Label x:Name="RelatedLabel"
+                       Style="{StaticResource CardTitleLabel}"   
+                       Margin="10,0,10,0"                        
+                       >
+                <Label.GestureRecognizers >
+                    <TapGestureRecognizer Tapped="LabelTapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Frame Style="{StaticResource BorderedFormEntryFrameStyle}">
+                <components:NoBorderNoStyleEntry 
+                        x:Name="RelatedEntry" 
+                        Margin="15,0,10,0" 
+                        Placeholder=""
+                        PlaceholderColor="{Binding PlaceholderColor}"
+                        Style="{StaticResource NoBorderNoStyleEntryStyle}"
+                        Unfocused="RelatedEntry_Unfocused"
+                        Focused="RelatedEntry_Focused"
+                        TextColor="{Binding TextColor}"
+                        TextChanged="RelatedEntry_TextChanged"
+                    />
+            </Frame>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

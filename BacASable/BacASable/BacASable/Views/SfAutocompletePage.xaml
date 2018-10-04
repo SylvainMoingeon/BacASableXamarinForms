@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+             xmlns:components="clr-namespace:BacASable.Components"
+             xmlns:viewmodels="clr-namespace:BacASable.ViewModels"
+             x:Class="BacASable.Views.SfAutocompletePage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:SfAutocompletePageViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<autocomplete:SfAutoComplete  
+                                             x:Name="autoComplete" 
+                                             HeightRequest="40"
+                                             BackgroundColor="Gray"
+                                             DropDownBackgroundColor="Gray"
+                                             DataSource="{Binding Countries}" 
+                                             SuggestionMode="Contains"
+                                             SelectedItem="{Binding SelectedCountry, Mode=TwoWay}"
+                TextHighlightMode="MultipleOccurrence"
+                HighlightedTextColor="Red"
+                HighlightedTextFontAttributes="Bold"
+                LoadMoreText="Load More"
+                MaximumSuggestion="5"
+                NoResultsFoundText="No Results Found" 
+                />-->
+            
+            
+            <components:BorderedFormAutocomplete Caption="Pays" 
+                                                 ItemsSource="{Binding Countries}"
+                                                 SelectedItem="{Binding SelectedCountry, Mode=TwoWay}"
+                                                 DisplayMemberPath="Name"
+                                                 Watermark="{Binding Watermark}"/>
+
+
+            <components:BorderedFormLabelEntry Caption="Pays"  
+                                               Text="{Binding SelectedCountry.Name, Mode=TwoWay}"></components:BorderedFormLabelEntry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

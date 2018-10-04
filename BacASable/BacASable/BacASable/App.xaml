@@ -1,8 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:styles="clr-namespace:BacASable.Styles" 
              x:Class="BacASable.App">
+
     <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <styles:ColorsStyles />
+                <styles:FontsStyles />
+                <styles:LabelsStyles />
+                <styles:ButtonsStyles />
+                <styles:ComponentsStyles />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
         <ResourceDictionary>
             <!--Global Styles-->
             <Color x:Key="NavigationPrimary">#2196F3</Color>
@@ -11,5 +22,6 @@
                 <Setter Property="BarTextColor" Value="White" />
             </Style>
         </ResourceDictionary>
+
     </Application.Resources>
 </Application>

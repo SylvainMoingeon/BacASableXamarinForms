@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:styles="clr-namespace:BacASable.Styles;assembly=BacASable"
+             xmlns:components="clr-namespace:BacASable.Components;assembly=BacASable"
+             x:Class="BacASable.Styles.ComponentsStyles">
+    <ResourceDictionary.MergedDictionaries>
+        <styles:ColorsStyles />
+        <styles:FontsStyles />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--<Style x:Key="CardFrameDefaultStyle" TargetType="components:CardFrame">
+        <Setter Property="Padding" Value="15" />
+        <Setter Property="BackgroundColor" Value="White" />
+        <Setter Property="CornerRadius" Value="5" />
+    </Style>-->
+
+    <Style x:Key="DefaultImageProfileStyle" TargetType="Image">
+        <Setter Property="Aspect" Value="AspectFit" />
+        <Setter Property="HeightRequest" Value="35" />
+        <Setter Property="WidthRequest" Value="35" />
+    </Style>
+
+    <Style x:Key="BigImageProfileStyle" TargetType="Image" BasedOn="{StaticResource DefaultImageProfileStyle}">
+        <Setter Property="HeightRequest" Value="110" />
+        <Setter Property="WidthRequest" Value="110" />
+    </Style>
+
+    <!--<Style x:Key="DefaultRoundedImageProfileStyle" TargetType="components:RoundedImage">
+        <Setter Property="Aspect" Value="AspectFit" />
+        <Setter Property="BorderColor" Value="Transparent" />
+        <Setter Property="BorderStroke" Value="1" />
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="HeightRequest" Value="35" />
+        <Setter Property="WidthRequest" Value="35" />
+    </Style>-->
+
+    <!--<Style TargetType="components:NavigationBar" x:Key="DefaultNavigationBarStyle">
+        <Setter Property="BackCommand" Value="{Binding BackCommand}" />
+        <Setter Property="BackButtonIconSource" Value="arrow_left" />
+        <Setter Property="BackButtonIconWidthRequest" Value="30" />
+        <Setter Property="BackButtonIconHeightRequest" Value="30" />
+
+        <Setter Property="RightButtonIconSource" Value="arrow_right" />
+        <Setter Property="RightButtonIconWidthRequest" Value="30" />
+        <Setter Property="RightButtonIconHeightRequest" Value="30" />
+    </Style>-->
+</ResourceDictionary>

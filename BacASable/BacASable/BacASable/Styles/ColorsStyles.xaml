@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BacASable.Styles.ColorsStyles">
+    <Color x:Key="AlmostBlackColor">#101414</Color>
+    <Color x:Key="LinkedinBlueColor">#0077b5</Color>
+    <Color x:Key="HyperlinkBlueColor">#0071a1</Color>
+    <Color x:Key="BlueGreenColor">#047980</Color>
+    <Color x:Key="LightBlueGreenColor">#88047980</Color>
+    <Color x:Key="SoftGrayColor">#707070</Color>
+    <Color x:Key="ListItemGray">#eeeeee</Color>
+    <Color x:Key="EstayYellow">#f1b61b</Color>
+    <Color x:Key="EstayGray">#eeeeee</Color>
+    <Color x:Key="White">#ffffff</Color>
+    <Color x:Key="NextTextColor">#707070</Color>
+    <Color x:Key="WarningTextColor">#FF0000</Color>
+    <Color x:Key="Black">#000000</Color>
+
+    <Color x:Key="MainBackgroundColor">#F8F8F8</Color>
+   
+    <!--Couleur de fond début dégradé-->
+    <!--<Color x:Key="PrimaryColor">#3E455A</Color>-->
+    <!--Couleur de fond fin dégradé-->
+    <!--<Color x:Key="SecondaryColor">#212736</Color>-->
+    <!--Jaune-->
+    <!--<Color x:Key="EstayJ">#ECB634</Color>-->
+    <!--Vert-->
+    <!--<Color x:Key="EstayT">#047980</Color>-->
+    <!--texte grisé-->
+    <!--<Color x:Key="EstayGray">#707070</Color>-->
+    <!--Fond des écrans-->
+    <!---->
+    <!--Couleur des contacts un peu plus claire que fond des écrans-->
+    <!--<Color x:Key="ContactHiglightColor">#FFFFFF</Color>-->
+    <!--gris plus foncé que le fond de l'écran-->
+    <!--<Color x:Key="ContactBorderColor">#e0e0e0</Color>-->
+</ResourceDictionary>
