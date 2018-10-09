@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:components="clr-namespace:BacASable.Components;assembly=BacASable"
@@ -9,8 +9,6 @@
         <ResourceDictionary>
             <Style x:Key="BorderedFormEntryFrameStyle" TargetType="Frame">
                 <Setter Property="HasShadow" Value="false" />
-                <!--<Setter Property="HeightRequest" Value="45" />-->
-                <!--<Setter Property="WidthRequest" Value="200" />-->
                 <Setter Property="CornerRadius" Value="20" />
                 <Setter Property="BackgroundColor" Value="{StaticResource EstayGray}" />
                 <Setter Property="Margin" Value="10,5" />
@@ -22,9 +20,11 @@
                 <Setter Property="WatermarkColor" Value="{StaticResource AlmostBlackColor}" />
                 <Setter Property="FontFamily" Value="{StaticResource LatoMediumItalic}" />
                 <Setter Property="DropDownItemFontFamily" Value="{StaticResource LatoMediumItalic}" />
+                <Setter Property="DropDownFontAttributes" Value="Italic" />
                 <Setter Property="VerticalOptions" Value="Center" />
                 <Setter Property="BackgroundColor" Value="{StaticResource EstayGray}" />
                 <Setter Property="DropDownBackgroundColor" Value="{StaticResource EstayGray}" />
+                <Setter Property="BorderColor" Value="{StaticResource EstayGray}" />
                 <Setter Property="ShowBorder" Value="False" />
                 <Setter Property="DropDownCornerRadius" Value="20" />
             </Style>
@@ -41,9 +41,10 @@
     <ContentView.Content>
         <StackLayout >
             <Label x:Name="RelatedLabel"
-                       Style="{StaticResource CardTitleLabel}"   
-                       Margin="10,0,10,0"                        
-                       >
+                   Style="{StaticResource CardTitleLabel}"   
+                   Margin="10,0,10,0"   
+                   Text="{Binding Caption, Source={x:Reference this}}"
+                   >
                 <Label.GestureRecognizers >
                     <TapGestureRecognizer Tapped="LabelTapGestureRecognizer_Tapped" />
                 </Label.GestureRecognizers>
@@ -53,18 +54,22 @@
 
                 <syncfusion:SfAutoComplete
                         x:Name="RelatedAutoComplete" 
+                        Style="{StaticResource EstaySfAutocompleteStyle}"
                         Margin="15,0,10,0" 
+                    
                         DataSource="{Binding ItemsSource, Source={x:Reference this}}"
                         DisplayMemberPath="{Binding DisplayMemberPath, Source={x:Reference this}}"
                         SelectedItem="{Binding SelectedItem, Source={x:Reference this}, Mode=TwoWay}"
+                    
+                        Text="{Binding Text, Source={x:Reference this}}"
+                        TextColor="{Binding TextColor, Source={x:Reference this}}"
+                    
                         Watermark="{Binding Watermark,Source={x:Reference this}}"
                         WatermarkColor="{Binding WatermarkColor,Source={x:Reference this}}"
                                        
                         Unfocused="RelatedAutoComplete_Unfocused"
-                        Focused="RelatedAutoComplete_Focused"
-                    
-                        Style="{StaticResource EstaySfAutocompleteStyle}"
-                    />
+                        Focused="RelatedAutoComplete_Focused"                                                                         
+                 />
             </Frame>
         </StackLayout>
     </ContentView.Content>

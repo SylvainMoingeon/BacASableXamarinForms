@@ -21,8 +21,8 @@ namespace BacASable.Components
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BorderedFormAutocomplete : ContentView
     {
-        public event EventHandler Unfocused = (e, a) => { };
-        public event EventHandler Focused = (e, a) => { };
+        public new event EventHandler Unfocused = (e, a) => { };
+        public new event EventHandler Focused = (e, a) => { };
         public event EventHandler TextChanged = (e, a) => { };
 
         public BorderedFormAutocomplete()
@@ -43,23 +43,9 @@ namespace BacASable.Components
         /// </summary>
         private void Init()
         {
-            //RelatedAutoComplete.Watermark = Watermark;
-            //RelatedAutoComplete.Text = Text;
-            //RelatedAutoComplete.DataSource = ItemsSource;
-            //RelatedAutoComplete.SelectedItem = SelectedItem;
-
             // par défaut, on a un clavier text
             RelatedAutoComplete.Keyboard = Xamarin.Forms.Keyboard.Text;
             RelatedAutoComplete.PropertyChanged += OnRelatedAutoCompletePropertyChanged;
-
-            //try
-            //{
-            //    WatermarkColor = (Color)Application.Current.Resources["AlmostBlackColor"];
-            //}
-            //catch (Exception)
-            //{
-            //    WatermarkColor = Color.DimGray;
-            //}
         }
 
         #region SelectedItem
@@ -116,7 +102,7 @@ namespace BacASable.Components
              defaultValue: string.Empty,
              defaultBindingMode: BindingMode.TwoWay,
              propertyChanged: (bindable, oldValue, newValue) =>
-             {     
+             {
              });
 
 
@@ -128,7 +114,7 @@ namespace BacASable.Components
         }
         #endregion
 
-        #region Label Text Bindable
+        #region Caption Text Bindable
         public static readonly BindableProperty CaptionProperty =
                         BindableProperty.Create(
                             nameof(Caption),
@@ -138,8 +124,6 @@ namespace BacASable.Components
                             defaultBindingMode: BindingMode.TwoWay,
                             propertyChanged: (bindable, oldValue, newValue) =>
                             {
-                                var view = bindable as BorderedFormAutocomplete;
-                                view.RelatedLabel.Text = newValue as string;
                             });
 
         public string Caption
@@ -158,8 +142,6 @@ namespace BacASable.Components
         defaultBindingMode: BindingMode.TwoWay,
         propertyChanged: (bindable, oldValue, newValue) =>
         {
-            var view = bindable as BorderedFormAutocomplete;
-            view.RelatedAutoComplete.Text = newValue as string;
         });
 
         public string Text
@@ -179,11 +161,6 @@ namespace BacASable.Components
                 defaultBindingMode: BindingMode.OneWay,
                 propertyChanged: (bindable, oldValue, newValue) =>
                 {
-                    var view = bindable as BorderedFormAutocomplete;
-                    if (newValue is Color)
-                    {
-                        view.RelatedAutoComplete.TextColor = (Color)newValue;
-                    }
                 });
 
         public Color TextColor
@@ -205,11 +182,6 @@ namespace BacASable.Components
                 defaultBindingMode: BindingMode.OneWay,
                 propertyChanged: (bindable, oldValue, newValue) =>
                 {
-                    //var view = bindable as BorderedFormAutocomplete;
-                    //if (newValue is Color)
-                    //{
-                    //    view.RelatedAutoComplete.WatermarkColor = (Color)newValue;
-                    //}
                 });
 
         public Color WatermarkColor
@@ -226,11 +198,8 @@ namespace BacASable.Components
                 typeof(string),
                 typeof(BorderedFormAutocomplete),
                 string.Empty,
-
                 propertyChanged: (bindable, oldValue, newValue) =>
                 {
-                    //var view = bindable as BorderedFormAutocomplete;
-                    //view.RelatedAutoComplete.Watermark = newValue as string;
                 });
 
         public string Watermark
@@ -294,10 +263,10 @@ namespace BacASable.Components
         #endregion
 
         #region IsFocused
-        public static readonly BindableProperty IsFocusedProperty =
+        public static readonly new BindableProperty IsFocusedProperty =
             BindableProperty.Create(nameof(IsFocused), typeof(bool), typeof(BorderedFormAutocomplete), false);
 
-        public bool IsFocused
+        public new bool IsFocused
         {
             get => RelatedAutoComplete.IsFocused || RelatedLabel.IsFocused;
         }
@@ -308,7 +277,7 @@ namespace BacASable.Components
         /// <summary>
         /// répercution du focus sur l'entry
         /// </summary>
-        public void Focus()
+        public new void Focus()
         {
             RelatedAutoComplete.Focus();
         }
@@ -353,7 +322,7 @@ namespace BacASable.Components
 
             if (e.PropertyName == BorderedFormAutocomplete.ItemsSourceProperty.PropertyName)
             {
-                System.Diagnostics.Debugger.Break();
+                Debugger.Break();
             }
         }
         #endregion

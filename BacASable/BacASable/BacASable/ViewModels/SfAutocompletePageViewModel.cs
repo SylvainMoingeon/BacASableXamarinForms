@@ -61,7 +61,7 @@ namespace BacASable.ViewModels
 
             Countries = new ObservableCollection<Country>(countries);
 
-            Watermark = "Par là !";
+            Watermark = "Pays...";
             //SelectedCountry = "France";
         }
     }

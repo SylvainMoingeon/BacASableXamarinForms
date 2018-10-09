@@ -12,31 +12,18 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <!--<autocomplete:SfAutoComplete  
-                                             x:Name="autoComplete" 
-                                             HeightRequest="40"
-                                             BackgroundColor="Gray"
-                                             DropDownBackgroundColor="Gray"
-                                             DataSource="{Binding Countries}" 
-                                             SuggestionMode="Contains"
-                                             SelectedItem="{Binding SelectedCountry, Mode=TwoWay}"
-                TextHighlightMode="MultipleOccurrence"
-                HighlightedTextColor="Red"
-                HighlightedTextFontAttributes="Bold"
-                LoadMoreText="Load More"
-                MaximumSuggestion="5"
-                NoResultsFoundText="No Results Found" 
-                />-->
-            
+               
             
             <components:BorderedFormAutocomplete Caption="Pays" 
                                                  ItemsSource="{Binding Countries}"
                                                  SelectedItem="{Binding SelectedCountry, Mode=TwoWay}"
                                                  DisplayMemberPath="Name"
-                                                 Watermark="{Binding Watermark}"/>
+                                                 Watermark="{Binding Watermark}"
+                                                 WatermarkColor="DimGray"
+                                                 />
 
 
-            <components:BorderedFormLabelEntry Caption="Pays"  
+            <components:BorderedFormLabelEntry Caption="Pays sélectionné"  
                                                Text="{Binding SelectedCountry.Name, Mode=TwoWay}"></components:BorderedFormLabelEntry>
         </StackLayout>
     </ContentPage.Content>
