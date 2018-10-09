@@ -38,6 +38,10 @@ namespace BacASable.Views
                     case (int)MenuItemType.SfAutocomplete:
                         MenuPages.Add(id, new NavigationPage(new SfAutocompletePage()));
                         break;
+
+                    case (int)MenuItemType.AbsoluteLayoutPopup:
+                        MenuPages.Add(id, new NavigationPage(new AbsoluteLayoutPopupPage()));
+                        break;
                 }
             }
 

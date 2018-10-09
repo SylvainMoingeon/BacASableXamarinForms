@@ -18,6 +18,7 @@ namespace BacASable.Views
 
             menuItems = new List<HomeMenuItem>
             {
+                new HomeMenuItem{Id=MenuItemType.AbsoluteLayoutPopup, Title="AbsoluteLayoutPopup"},
                 new HomeMenuItem {Id = MenuItemType.SfAutocomplete, Title="SfAutocomplete" },
                 new HomeMenuItem {Id = MenuItemType.SfImageEditor, Title="SfImageEditor" },
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse"},

@@ -9,7 +9,8 @@ namespace BacASable.Models
         SfAutocomplete,
         SfImageEditor,
         Browse,
-        About
+        About,
+        AbsoluteLayoutPopup
     }
     public class HomeMenuItem
     {
