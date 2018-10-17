@@ -23,7 +23,8 @@ namespace BacASable.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            CrossCurrentActivity.Current.Init(this, savedInstanceState);
+            //Pas nécessaire si on a initialisé via MainApplication.cs
+            //CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
             base.OnCreate(savedInstanceState);
             Instance = this;
